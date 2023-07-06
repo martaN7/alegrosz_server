@@ -12,6 +12,7 @@ server.use(middlewares)
 server.use(router)
 
 const PORT = 8000
+console.log('test')
 
 server.listen(PORT, () => {
   console.log(`JSON Server is running on http://localhost:${PORT}`)
